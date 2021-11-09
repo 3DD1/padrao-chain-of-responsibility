@@ -1,14 +1,14 @@
 public class Software {
-    private TipoSoftware tipoSoftware;
-    public Software(TipoSoftware tipoSoftware) {
-        this.tipoSoftware = tipoSoftware;
+    private TypeSoftware typeSoftware;
+    public Software(TypeSoftware typeSoftware) {
+        this.typeSoftware = typeSoftware;
     }
 
-    public TipoSoftware getTipoSoftware() {
-        return tipoSoftware;
+    public TypeSoftware getTypeSoftware() {
+        return typeSoftware;
     }
 
-    public void setTipoSoftware(TipoSoftware tipoSoftware) {
-        this.tipoSoftware = tipoSoftware;
+    public void setTypeSoftware(TypeSoftware typeSoftware) {
+        this.typeSoftware = typeSoftware;
     }
 }
