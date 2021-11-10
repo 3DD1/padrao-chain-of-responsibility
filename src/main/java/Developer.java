@@ -12,8 +12,17 @@ public abstract class Developer {
     public abstract String getDescription();
 
     public String toSingSoftwatre(Software software) {
-      if
+        if (listaSoftware.contains(software.getTipoSoftware())) {
+            return getDescription();
+        } else {
+            if (developerSuperior != null) {
+                return developerSuperior.prosseguirSoftware(software);
+            } else {
+                return "Sem prosseguimento";
+            }
+        }
     }
 }
+
 
 
