@@ -1,4 +1,4 @@
-public class TipoSoftwareAnaliseRequisitos implements TypeSoftware {
+public class TipoSoftwareAnaliseRequisitos implements TipoSoftware {
     private static TipoSoftwareAnaliseRequisitos analiseRequisitos = new TipoSoftwareAnaliseRequisitos();
 
     private TipoSoftwareAnaliseRequisitos (){};

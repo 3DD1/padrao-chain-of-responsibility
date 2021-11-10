@@ -1,4 +1,4 @@
-public class TipoSoftwareFronEnd implements TypeSoftware{
+public class TipoSoftwareFronEnd implements TipoSoftware {
     private static TipoSoftwareFronEnd frontEnd = new TipoSoftwareFronEnd();
 
     private TipoSoftwareFronEnd(){};
