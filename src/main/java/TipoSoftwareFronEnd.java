@@ -3,8 +3,8 @@ public class TipoSoftwareFronEnd implements TypeSoftware{
 
     private TipoSoftwareFronEnd(){};
 
-    public static TipoSoftwareFronEnd geFrontEnd(){
-        return front-end;
+    public static TipoSoftwareFronEnd getFrontEnd(){
+        return frontEnd;
     }
 
 
