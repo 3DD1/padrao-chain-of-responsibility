@@ -4,11 +4,11 @@ public class Software {
         this.tipoSoftware = tipoSoftware;
     }
 
-    public TipoSoftware getTypeSoftware() {
+    public TipoSoftware getTipoSoftware() {
         return tipoSoftware;
     }
 
-    public void setTypeSoftware(TipoSoftware tipoSoftware) {
+    public void setTipoSoftware(TipoSoftware tipoSoftware) {
         this.tipoSoftware = tipoSoftware;
     }
 }

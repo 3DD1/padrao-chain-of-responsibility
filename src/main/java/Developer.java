@@ -1,4 +1,3 @@
-
 public abstract class Developer {
 
     protected Arraylist listaSoftware = new Arraylist();
@@ -10,11 +9,11 @@ public abstract class Developer {
     public void setDeveloperSuperior(Developer developerSuperior) {
         this.developerSuperior = developerSuperior;
     }
-    public abstract String getDescription();
+    public abstract String getDescricao();
 
-    public String toSingSoftwatre(Software software) {
+    public String prosseguirSoftwatre(Software software) {
         if (listaSoftware.contains(software.getTipoSoftware())) {
-            return getDescription();
+            return getDescricao();
         } else {
             if (developerSuperior != null) {
                 return developerSuperior.prosseguirSoftware(software);
