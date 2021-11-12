@@ -15,7 +15,6 @@ class SoftwareTest {
         devBackEnd = new DeveloperBackEnd(devQA);
         devFrontEnd = new DeveloperFrontEnd(devBackEnd);
         requisitos = new DeveloperRequisitos(devFrontEnd);
-
     }
 
     @Test
@@ -23,5 +22,19 @@ class SoftwareTest {
         assertEquals("Requisitos", requisitos.prosseguirSoftware(new Software(TipoSoftwareAnaliseRequisitos.getTipoSoftwareAnaliseRequisitos())));
     }
 
+    @Test
+    void deveRetornarBackEndParaTipoBackEnd(){
+        assertEquals("Back-End", requisitos.prosseguirSoftware(new Software(TipoSoftwareBackEnd.getTipoSoftwareBackEnd())));
+    }
+
+    @Test
+    void deveRetornarFrontEndParaTipoFrontEnd(){
+        assertEquals("Front-End", requisitos.prosseguirSoftware(new Software(TipoSoftwareFrontEnd.getTipoSoftwareFrontEnd())));
+    }
+
+    @Test
+    void deveRetornarQAParaTipoQA(){
+        assertEquals("QA", requisitos.prosseguirSoftware(new Software(TipoSoftwareQA.getTipoSoftwareQA())));
+    }
 
 }
