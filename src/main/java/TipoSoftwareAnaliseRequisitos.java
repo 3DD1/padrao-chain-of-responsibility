@@ -3,7 +3,7 @@ public class TipoSoftwareAnaliseRequisitos implements TipoSoftware {
 
     private TipoSoftwareAnaliseRequisitos (){};
 
-    public static TipoSoftwareAnaliseRequisitos getAnaliseRequisitos (){
+    public static TipoSoftwareAnaliseRequisitos getTipoSoftwareAnaliseRequisitos (){
         return analiseRequisitos;
     }
 }

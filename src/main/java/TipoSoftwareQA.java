@@ -3,7 +3,7 @@ public class TipoSoftwareQA implements TipoSoftware {
 
     private TipoSoftwareQA(){};
 
-    public static TipoSoftwareQA getQa(){
+    public static TipoSoftwareQA getTipoSoftwareQA(){
         return qa;
     }
 

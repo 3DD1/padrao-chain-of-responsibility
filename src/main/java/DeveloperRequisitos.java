@@ -2,7 +2,7 @@ public class DeveloperRequisitos extends Developer{
 
 
     public DeveloperRequisitos(Developer superior){
-        listaSoftware.add(TipoSoftwareRequisitos.getTipoSoftwareRequisitos());
+        listaSoftware.add(TipoSoftwareAnaliseRequisitos.getTipoSoftwareAnaliseRequisitos());
         setDeveloperSuperior(superior);
     }
 

@@ -3,7 +3,7 @@ public class TipoSoftwareBackEnd implements TipoSoftware {
 
     private TipoSoftwareBackEnd(){};
 
-    public static TipoSoftwareBackEnd getBackend(){
+    public static TipoSoftwareBackEnd getTipoSoftwareBackEnd(){
         return backend;
     }
 
