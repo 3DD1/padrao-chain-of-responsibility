@@ -1,6 +1,7 @@
+import java.util.ArrayList;
 public abstract class Developer {
 
-    protected Arraylist listaSoftware = new Arraylist();
+    protected ArrayList listaSoftware = new ArrayList();
     private Developer developerSuperior;
 
     public Developer getDeveloperSuperior() {
@@ -11,7 +12,7 @@ public abstract class Developer {
     }
     public abstract String getDescricao();
 
-    public String prosseguirSoftwatre(Software software) {
+    public String prosseguirSoftware(Software software) {
         if (listaSoftware.contains(software.getTipoSoftware())) {
             return getDescricao();
         } else {
